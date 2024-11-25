@@ -3,13 +3,13 @@
 import { DashboardShell } from "@/components/dashboard-shell"
 import { AnalyticsOverview } from "@/components/analytics-overview"
 
-export default function AnalyticsPage() {
+export default function OverviewPage() {
   return (
     <DashboardShell>
       <div className="mb-6">
-        <h1 className="text-2xl font-bold tracking-tight">Analytics</h1>
+        <h1 className="text-2xl font-bold tracking-tight">Overview</h1>
         <p className="text-muted-foreground">
-          Get insights into document engagement and user behavior
+          High-level analytics insights across all documents
         </p>
       </div>
       <AnalyticsOverview />

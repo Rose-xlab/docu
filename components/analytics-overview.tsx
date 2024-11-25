@@ -25,6 +25,7 @@ export function AnalyticsOverview() {
           <p className="text-xs text-muted-foreground">+20.1% from last month</p>
         </CardContent>
       </Card>
+
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">Unique Visitors</CardTitle>
@@ -34,6 +35,7 @@ export function AnalyticsOverview() {
           <p className="text-xs text-muted-foreground">+15.2% from last month</p>
         </CardContent>
       </Card>
+
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">Avg. Time on Page</CardTitle>
@@ -43,6 +45,7 @@ export function AnalyticsOverview() {
           <p className="text-xs text-muted-foreground">+2.3% from last month</p>
         </CardContent>
       </Card>
+
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">Bounce Rate</CardTitle>
@@ -52,6 +55,7 @@ export function AnalyticsOverview() {
           <p className="text-xs text-muted-foreground">-1.5% from last month</p>
         </CardContent>
       </Card>
+
       <Card className="col-span-4">
         <CardHeader>
           <CardTitle>Weekly Overview</CardTitle>
@@ -74,4 +78,3 @@ export function AnalyticsOverview() {
     </div>
   )
 }
-

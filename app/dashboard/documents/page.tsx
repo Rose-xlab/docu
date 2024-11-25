@@ -2,6 +2,8 @@ import { Metadata } from "next"
 import { DashboardShell } from "@/components/dashboard-shell"
 import { DocumentList } from "@/components/document-list"
 import { BulkOperations } from "@/components/bulk-operations"
+import { DocumentAnalytics } from "@/components/document-analytics"
+
 
 export const metadata: Metadata = {
   title: "Documents - DocSecure",
